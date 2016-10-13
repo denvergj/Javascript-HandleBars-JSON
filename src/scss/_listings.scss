@@ -1,0 +1,22 @@
+#person-details {
+	padding: 40px;
+	ul {
+		li {
+			border-bottom: 2px solid #222;
+			overflow: hidden;
+			padding: 10px 0;
+			font-family: $primary-font;
+			img {
+				float: left;
+				margin-right: 40px;
+			}
+			.name {
+				font-size: 40px;
+			}
+			.title {
+				font-size: 32px;
+				color:#af2727;
+			}
+		}
+	}
+}

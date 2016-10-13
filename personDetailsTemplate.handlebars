@@ -1,0 +1,9 @@
+<ul>
+    {{#.}}
+         <li class="person">
+		    <img src="{{image}}" alt="{{firstName}}"/>
+		    <div class="name">{{firstName}} {{#if nickname}}({{nickname}}){{/if}}</div>
+		    <div class="title">{{title}}</div>
+		  </li>
+    {{/.}}
+</ul>
